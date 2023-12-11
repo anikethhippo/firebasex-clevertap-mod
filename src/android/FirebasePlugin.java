@@ -2937,6 +2937,8 @@ public class FirebasePlugin extends CordovaPlugin {
         });
     }
 
+    
+
     private void updateDocumentInFirestoreCollection(JSONArray args, CallbackContext callbackContext) throws JSONException {
         cordova.getThreadPool().execute(new Runnable() {
             public void run() {
